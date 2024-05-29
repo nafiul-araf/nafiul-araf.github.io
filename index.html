@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="bg-dark text-white p-3">
+        <div class="container">
+            <h1 class="mb-0">My Portfolio</h1>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="mb-4">About Me</h2>
+            <p>Hi, I'm Md. Nafiul Islam, a dedicated and results-driven machine learning engineer with a passion for developing innovative solutions that drive business success. I have a strong foundation in computer science and a keen interest in artificial intelligence, which has led me to specialize in machine learning and data science. Over the years, I have honed my skills through various projects, internships, and academic research.</p>
+        </div>
+    </section>
+    <section id="skills" class="bg-light py-5">
+        <div class="container">
+            <h2 class="mb-4">Skills</h2>
+            <ul class="list-unstyled">
+                <li class="mb-2">Python</li>
+                <li class="mb-2">TensorFlow</li>
+                <li class="mb-2">PyTorch</li>
+                <li class="mb-2">Data Analysis</li>
+                <li class="mb-2">Machine Learning</li>
+            </ul>
+        </div>
+    </section>
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h2 class="mb-4">Key Projects</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Project 1: Image Recognition System</h5>
+                            <p class="card-text">The Image Recognition System project, developed during an industrial attachment with Teletalk BD, aims to detect whether an image contains a human, is blank, or is unclear or misaligned. Utilizing state-of-the-art convolutional neural networks (CNNs), the project employed both a custom plain CNN model and transfer learning with pretrained models (VGG16, Xception, Inception V3, ResNet50, DenseNet121, DenseNet169, and DenseNet201). Data augmentation was applied to enhance the dataset. The Xception model achieved the highest accuracy at 93%, followed by DenseNet201 with 92%.</p>
+                            <div class="mt-auto">
+                                <a href="https://github.com/nafiul-araf/Industrial-Attachment-Internship" class="btn btn-primary" target="_blank">GitHub Repository</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Project 2: BFND-System</h5>
+                            <p class="card-text">This academic thesis, submitted in partial fulfillment of a Bachelor of Science in Computer Science & Engineering, addresses the global issue of fake news. The project focuses on detecting Bangla fake news using two innovative methodologies: hashing and hashing-autoencoder. Hashing reduces the dimensional space of text data, while the autoencoder neural network cleans up noisy or sparse data by reconstructing it from a lower-dimensional space. These methods were compared with traditional natural language processing techniques like LSTM, GRU, CNN-LSTM, and CNN-GRU, as well as machine learning models including logistic regression, decision trees, and passive aggressive classifiers. Ensemble methods like voting and boosting were also evaluated. The best performance, with over 90% accuracy, was achieved by Logistic Regression, the Light Gradient Boosted Machine, and the CNN-LSTM hybrid network.</p>
+                            <div class="mt-auto">
+                                <a href="https://github.com/nafiul-araf/BFND-System" class="btn btn-primary" target="_blank">GitHub Repository</a>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body ">
+                            <h5 class="card-title">Project 3: Sentiment Detection</h5>
+                            <p class="card-text">This project is a practical exercise in text classification, designed to identify six types of emotions: anger (😠), fear (😨), happiness (🤗), sadness (😔), surprise (😮), and love (❤️). Using logistic regression, I achieved over 90% accuracy in emotion detection. To enhance the model, I employed feature analysis methods to identify patterns in expressions and their corresponding texts. Additionally, I used Streamlit to create an interactive and user-friendly interface for the system.</p>
+                            <div class="mt-auto">
+                                <a href="https://github.com/nafiul-araf/Sentiment-Detection" class="btn btn-primary" target="_blank">GitHub Repository</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body ">
+                            <h5 class="card-title">Project 4: Bank Loan Defaulter</h5>
+                            <p class="card-text">This project aimed to develop a predictive model for identifying potential bank loan defaulters using customer data, incorporating features such as income, age, experience, marital status, house ownership, car ownership, current job years, and current house years. The data preprocessing involved handling missing values, encoding categorical variables, and scaling numerical features. After evaluating multiple models, a Random Forest classifier was identified as the optimal model due to its superior performance. The final solution was deployed using Streamlit, creating an interactive web application that allows users to input customer data and receive a prediction on whether the customer is likely to default on a loan.</p>
+                            <div class="mt-auto">
+                                <a href="https://github.com/nafiul-araf/Bank-Loan-Defaulter" class="btn btn-primary" target="_blank">GitHub Repository</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="resume" class="bg-light py-5">
+        <div class="container">
+            <h2 class="mb-4">Resume</h2>
+            <p>You can download my resume by clicking the button below:</p>
+            <a href="resume/Updated CV.pdf" class="btn btn-primary" download>View & Download Resume</a>
+        </div>
+    </section>
+    <section id="contact" class="bg-light py-5">
+        <div class="container">
+            <h2 class="mb-4">Contact</h2>
+            <p>Email: <a href="mailto:araf.cuet16@gmail.com" target="_blank">araf.cuet16@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/nafiul-araf-50b0b7203/" target="_blank">https://www.linkedin.com/in/nafiul-araf-50b0b7203/</a></p>
+            <p>GitHub: <a href="https://github.com/nafiul-araf" target="_blank">https://github.com/nafiul-araf</a></p>
+        </div>
+    </section>
+    <footer class="bg-dark text-white text-center p-3">
+        <p>&copy; 2024 Md. Nafiul Islam. All rights reserved.</p>
+    </footer>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

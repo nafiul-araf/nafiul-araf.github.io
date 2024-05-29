@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: relative;
+}
+
+header h1 {
+  margin: 0;
+}
+
+section {
+  padding: 2em 1em;
+}
+
+.card-body {
+  text-align: justify; /* Ensure the text is justified */
+}
+
+.card-body h5 {
+  text-align: left; /* Keep the title aligned to the left */
+}
+
+.card-text {
+  margin-bottom: 20px; /* Add some margin at the bottom for better spacing */
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+header.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background: #333;
+  transition: background 0.3s;
+}
+
+.nav-link.active {
+  border-bottom: 2px solid #fff;
+}
