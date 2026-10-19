@@ -1,668 +1,615 @@
-<!DOCTYPE HTML>
-<!--
-	Strata by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+<!DOCTYPE html>
+<html lang="en">
 	<head>
-		<title>Md. Nafiul Islam</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Md. Nafiul Islam · Power BI Report Developer</title>
+		<meta name="description" content="Portfolio of Md. Nafiul Islam, a PL-300 certified Power BI report developer working with Microsoft Fabric. Live Power BI reports, SQL, Python and cloud data projects, experience and résumé." />
+		<meta name="theme-color" content="#EDEFF2" media="(prefers-color-scheme: light)" />
+		<meta name="theme-color" content="#11151C" media="(prefers-color-scheme: dark)" />
 
-		<!-- Header -->
-			<header id="header" style="overflow-y: auto; height: 100vh;">
-			<div class="inner">
-				<a href="#" class="image avatar">
-					<img src="images/my_picture.jpeg" alt="" />
+		<!-- Link previews (LinkedIn, Slack, etc.) -->
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://nafiul-araf.github.io/" />
+		<meta property="og:title" content="Md. Nafiul Islam · Power BI Report Developer" />
+		<meta property="og:description" content="Power BI reports and semantic models on Microsoft Fabric. Live dashboards, projects, experience and résumé." />
+		<meta property="og:image" content="https://nafiul-araf.github.io/images/my_picture.jpeg" />
+		<meta name="twitter:card" content="summary" />
+
+		<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23F2C811'/%3E%3Ctext x='16' y='22' font-family='Arial Narrow,Arial,sans-serif' font-weight='700' font-size='15' text-anchor='middle' fill='%231A1F2B'%3ENI%3C/text%3E%3C/svg%3E" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:ital,wght@0,400;0,500;0,600;1,400&display=swap" />
+		<link rel="stylesheet" href="assets/css/site.css" />
+		<script>document.documentElement.classList.add('js');</script>
+	</head>
+	<body>
+
+		<!-- Icon sprite -->
+		<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+			<symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7" /><path d="M8 7h9v9" /></symbol>
+			<symbol id="i-expand" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6" /><path d="M9 21H3v-6" /><path d="m21 3-7 7" /><path d="m3 21 7-7" /></symbol>
+			<symbol id="i-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2" /><path d="m22 7-10 6L2 7" /></symbol>
+			<symbol id="i-file" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" /><path d="M14 2v6h6" /><path d="M16 13H8" /><path d="M16 17H8" /></symbol>
+			<symbol id="i-copy" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" /><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" /></symbol>
+			<symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" /><circle cx="12" cy="10" r="3" /></symbol>
+			<symbol id="i-x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18" /><path d="m6 6 12 12" /></symbol>
+			<symbol id="i-left" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6" /></symbol>
+			<symbol id="i-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6" /></symbol>
+			<symbol id="i-up" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6" /></symbol>
+			<symbol id="i-linkedin" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.125 2.062 2.062 0 0 1 0 4.125zM7.119 20.452H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" /></symbol>
+			<symbol id="i-github" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" /></symbol>
+		</svg>
+
+		<a class="skip-link" href="#main">Skip to content</a>
+
+		<!-- Navigation -->
+		<header class="site-nav">
+			<div class="container nav-inner">
+				<a class="brand" href="#top" aria-label="Md. Nafiul Islam, back to top">
+					<span class="brand-mark" aria-hidden="true">NI</span>
+					<span class="brand-name">Nafiul Islam</span>
 				</a>
-				<h1>
-					<strong>I am Md. Nafiul Islam</strong>, a data professional,
-					who loves to work with <br /> data.
-					This is my portfolio website.
-				</h1>
-			</div>
-		
-			<div style="text-align: center; margin-top: 20px;">
-				<h4 style="margin-bottom: 20px;"><strong>Certifications</strong></h4>
-				<div style="display: flex; justify-content: center; gap: 15px; flex-wrap: nowrap;">
-					<a href="https://learn.microsoft.com/en-us/users/nafiularaf-8297/credentials/b1c52212cdf67daa" target="_blank">
-						<img src="images/certificate 1.JPG" alt="Microsoft PL-300 Certification" style="width: 160px; height: 120px; border: 2px solid #ccc; border-radius: 5px; transition: transform 0.3s ease;" />
-					</a>
-					<a href="https://www.coursera.org/account/accomplishments/specialization/certificate/5H69BE8TEPJG" target="_blank">
-						<img src="images/certificate 2.JPG" alt="Coursera Certificate 2" style="width: 160px; height: 120px; border: 2px solid #ccc; border-radius: 5px; transition: transform 0.3s ease;" />
-					</a>
-					<a href="https://www.linkedin.com/in/nafiul-araf-50b0b7203/overlay/1738837620571/single-media-viewer/?profileId=ACoAADPOXRsB72fJYUtONoNSc3YNqK_wHWA2oY0" target="_blank">
-						<img src="images/certificate 3.JPG" alt="Data Solution 360 Certificate" style="width: 160px; height: 120px; border: 2px solid #ccc; border-radius: 5px; transition: transform 0.3s ease;" />
-					</a>
-				</div>
+				<nav class="tabs" aria-label="Sections">
+					<a href="#about">About</a>
+					<a href="#experience">Experience</a>
+					<a href="#projects">Projects</a>
+					<a href="#certifications">Certifications</a>
+					<a href="#contact">Contact</a>
+				</nav>
+				<a class="btn btn-secondary btn-sm nav-cta" href="resume/Md_Nafiul_Islam.pdf" target="_blank" rel="noopener">
+					<svg class="icon" aria-hidden="true"><use href="#i-file" /></svg>Résumé
+				</a>
 			</div>
 		</header>
 
-		<!-- Main -->
-			<div id="main">
+		<main id="main">
 
-				<!-- One -->
-					<section id="one">
-						<header class="major">
-							<h2 style="color: #000000; font-weight: bold;">About Me</h2>
-							<h5 style="text-align: justify;">
-									I’m a data analytics professional who enjoys working with Microsoft Fabric, Power BI, Python, Excel, and statistics. As a <span style="font-weight: bold;">Microsoft Certified: Power BI Data Analyst Associate (PL-300)</span>, I spend most of my time building and maintaining Power BI reports and dashboards that live on Microsoft Fabric, using lakehouses, OneLake, and the medallion architecture to organize and serve data effectively.
-							</h5>
-						</header>
-						<p style="text-align: justify;">I like turning complicated datasets into stories that people can actually use. I’m always learning more about the Microsoft analytics ecosystem and modern data architectures. These days I’m focused on improving data flows in Fabric, making reports faster and easier to understand, and keeping everything well-structured and governed. My aim is to deliver clear, reliable insights that help teams make better decisions every day.</p>
-						<h2 style="color: #000000; font-weight: bold;">Skills</h2>
-            <ul>
-               <li>Python</li>
-               <li>Statistics</li>
-               <li>RDBMS</li>
-               <li>Power BI</li>
-               <li>Excel</li>
-			   			 <li>Data Warehouse</li>
-							 <li>Microsoft Fabric</li>
-               <li>Machine Learning</li>
-            </ul>
-						<h2 style="color: #000000; font-weight: bold;">Professional Experience</h2>
-						<div class="experience">
-							<h3 style="text-align: justify; color: #008000; font-weight: bold;">
-  							<a href="https://datacrafters.io/" target="_blank" style="color: #008000; text-decoration: none;">Data Crafters</a>
-							<h5 style="text-align: justify; font-weight: bold;">Junior Power BI Report Developer &#40;Oct 2025 - Present &#41;.</h5>
-							<ul style="text-align: justify;">
-									<li>Optimized and redesigned enterprise Power BI reports, improving navigation, usability, and clarity, contributing to a 59% increase in monthly report views and a 32% reduction in report redundancy.</li>
-									<li>Automated Excel-based HR reporting using Power BI and Microsoft Fabric pipelines, reducing manual reporting effort by 80–90% and enabling automated workforce analytics.</li>
-									<li>Developed workforce productivity and capacity dashboards to track utilization, workload, billable hours, and workforce trends, supporting resource allocation and capacity planning.</li>
-									<li>Built and maintained Power BI semantic models and reports using Microsoft Fabric Direct Lake, enabling near-real-time analytics on curated OneLake data across Sales, Production, Procurement, and Inventory.</li>
-									<li>Standardized critical business metrics through centralized business logic and DAX measures, while ensuring data accuracy through validation, schema impact analysis, and data quality checks.</li>
-									<li>Applied enterprise Power BI best practices for semantic modeling, performance optimization, report design, and governance, including standardized themes and TMDL-based Row-Level Security (RLS).</li>
-
-							</ul>
-					</div>
-						<div class="experience">
-							<h3 style="text-align: justify; color: #008000; font-weight: bold;">
-  							<a href="https://www.datasolution360.com/" target="_blank" style="color: #008000; text-decoration: none;">Data Solution 360</a>
-							</h3>
-							<h5 style="text-align: justify; font-weight: bold;">Junior Data Scientist &#40;Mar 2025 - Sep 2025 &#41;.</h5>
-							<ul style="text-align: justify;">
-									<li>Built Power BI dashboards for a retail chain, improving data accuracy and manual reporting.</li>
-									<li>Developed real-time sales dashboards, reducing manual reporting by 50%.</li>
-									<li>Worked on AI-based Job-Board solution (search, recommendation, cv checker).</li>
-									<li>Provided technical support (SQL, Python) to students of Data Solution 360 Edutech.</li>
-							</ul>
-					</div>
-						<div class="experience">
-							<!-- <h3 style="text-align: justify; color: #008000; font-weight: bold;">Data Solution 360</h3> -->
-							<h5 style="text-align: justify; font-weight: bold;">Data Science Intern &#40;Sep 2024 - Feb 2025 &#41;.</h5>
-							<ul style="text-align: justify;">
-									<li>Built NGO analytics dashboard using Power BI.</li>
-									<li>Gained expertise in MySQL, PostgreSQL, data warehousing, and MLOps, applying database management and pipeline optimization to support real-world business analytics projects.</li>
-								    <li>Implemented real-world portfolio projects to apply acquired skills, demonstrate expertise, and build a strong professional portfolio.</li>
-							</ul>
-					</div>
-					<div class="experience">
-							<h3 style="text-align: justify; color: #008000; font-weight: bold;">Orboroi</h3>
-							<h5 style="text-align: justify; font-weight: bold;">Senior Analyst &#40;Jan 2023 - Jun 2024 &#41;.</h5>
-							<ul style="text-align: justify;">
-									<li>Delivered 99% accurate annotations for forestry & medical imaging</li>
-									<li>Supported lead generation and campaign content</li>
-									<li>Awarded the Rising Star title for achieving high client satisfaction.</li>
-									<li>Medical image segmentation and annotation for object detection.</li>
-									<li>Honored with the Employee of the Month award three times for outstanding performance and dedication.</li>
-							</ul>
-					</div>
-            <a href="resume/Md_Nafiul_Islam.pdf" target="_blank" style="display: inline-block; background-color: #007BFF; color: white; text-decoration: none; padding: 10px 20px; border-radius: 5px; font-size: 16px; font-weight: bold;" style="font-weight: bold;">View My Resume</a>
-					</section>
-
-				<!-- Two -->
-				<section id="two">
-					<h2 style="color: #000000; font-weight: bold;">Projects</h2>
-					<h4 style="color: green; font-weight: bold;">Excel</h4>
-					<div class="row">
-							<article class="col-6 col-12-xsmall work-item">
-									<a href="images/fulls/excel-1.jpg" class="image fit thumb">
-											<img src="images/thumbs/excel-1.jpg" alt="" style="width: 100%; height: 200px; object-fit: cover;" />
-									</a>
-									<h5><a href="https://github.com/nafiul-araf/Supply-Chain-Research-and-Analysis" style="font-weight: bold;">Supply Chain Research and Analysis</a></h5>
-									<p style="text-align: justify;">This project analyzes key areas of supply chain performance, identifying inefficiencies and opportunities for improvement. It highlights transportation challenges, noting road transport’s long lead times and air transport’s speed advantage. Carrier performance analysis suggests renegotiating Carrier B's contract due to high costs and optimizing routes for efficiency. Skincare products emerged as the most profitable category, warranting further investment. Quality control bottlenecks, including a 38% defect rate, were identified as major issues impacting product availability. Seasonal revenue variability underscored the need for better demand forecasting. A predictive model explained only 20% of revenue variability, indicating the need for advanced analytics. Recommendations include improving quality control, optimizing logistics, and implementing dynamic pricing. The project emphasizes leveraging machine learning for better revenue prediction. Addressing these issues will enhance efficiency, boost customer satisfaction, and drive long-term profitability.</p>
-							</article>
-						  <article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/excel-2.jpg.jpg" class="image fit thumb">
-										<img src="images/thumbs/excel-2.jpg" alt="" style="width: 100%; height: 200px; object-fit: cover;" />
-								</a>
-								<h5><a href="https://drive.google.com/drive/folders/18wv5B9H7cnt68rE2cx9y7nH5TBt0czhd?usp=sharing" style="font-weight: bold;">Sales Data Analysis</a></h5>
-								<p style="text-align: justify;">This project explores sales performance across multiple dimensions, including product categories, outlet performance, and item demand. Total sales reached 18.59M, with 1,560 different items sold across 10 outlets. Low-fat items dominated sales (64%), suggesting a focus on expanding this category. Fruits & Vegetables led sales, followed by Snack Foods and Household items. Medium-sized outlets performed best, accounting for 64% of total sales. OUT027 was the highest-grossing outlet, highlighting strategies to replicate its success elsewhere. Sales distribution analysis showed most sales clustered in the lower range, with a few outliers. Recommendations include focusing on top-selling categories, optimizing inventory based on demand, and targeted marketing strategies. Expansion should prioritize medium-sized outlets, given their high performance. These insights guide strategic decisions for improving sales, stock management, and outlet efficiency.</p>
-						</article>
-					</div>
-					<h4 style="color: green; font-weight: bold;">Power BI</h4>
-					<div class="row">
-							<article class="col-6 col-12-xsmall work-item">
-									<a href="images/fulls/power-bi-1.JPG" class="image fit thumb">
-											<img src="images/thumbs/power-bi-1.JPG" alt="" style="width: 100%; height: 200px; object-fit: cover;" />
-									</a>
-									<h5><a href="https://app.powerbi.com/view?r=eyJrIjoiZTJjNzlmMDItYTMwOC00ZmFlLWEzMzgtOGI3MWI0NGNmNGRlIiwidCI6IjhjMTI4NjJkLWZjYWYtNGEwNi05M2FjLTk0Yjk3YjVjZWQ1NSIsImMiOjEwfQ%3D%3D" style="font-weight: bold;">Supply Chain Management Dashboard</a></h5>
-									<p style="text-align: justify;">This project showcases a Power BI dashboard for monitoring supply chain performance across financial, operational, and inventory metrics. It features multi-page analysis covering key areas such as quality control, logistics, and individual product performance. Drill-through functionality allows users to explore specific products in detail. Dynamic visualizations enhance interactivity, enabling real-time data exploration. Filter bookmarks and page navigation streamline user experience. The dashboard highlights trends in transportation efficiency, carrier performance, and revenue variability. Key findings help identify bottlenecks, optimize logistics, and improve quality control. Power BI's advanced features, including tooltips and interactive charts, make the dashboard highly intuitive. The project demonstrates expertise in data visualization and business intelligence. It serves as a powerful decision-making tool for optimizing supply chain management.
-
-									</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-									<a href="images/fulls/power-bi-2.JPG" class="image fit thumb">
-											<img src="images/thumbs/power-bi-2.JPG" alt="" style="width: 100%; height: 200px; object-fit: cover;" />
-									</a>
-									<h5><a href="https://app.powerbi.com/view?r=eyJrIjoiNGZhOTllZWMtZDk1NS00Y2RiLTk1ZDktYzBhYzA4Y2IxNjRiIiwidCI6IjhjMTI4NjJkLWZjYWYtNGEwNi05M2FjLTk0Yjk3YjVjZWQ1NSIsImMiOjEwfQ%3D%3D" style="font-weight: bold;">Healthcare Provider Data Analysis</a></h5>
-									<p style="text-align: justify;">This project analyzes financial and operational data from a healthcare provider to optimize efficiency and patient care. The total billing amount was £3.36M, with X-Rays contributing the highest revenue (£1.05M). Cardiology recorded the most visits (823), while hypertension was the top-billed diagnosis (29.71%). Provider performance analysis identified top-rated doctors and areas for improvement. Patient data insights included length of stay, visit types, and demographics. Key recommendations include optimizing high-cost procedures and improving provider efficiency. Billing trends across departments highlight opportunities for cost management. Power BI and Power Query were used for data visualization and analysis. The project demonstrates how data-driven strategies can enhance financial management and healthcare quality. Findings can support decision-making to improve patient outcomes and provider performance.</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-									<a href="images/fulls/power-bi-3.JPG" class="image fit thumb">
-											<img src="images/thumbs/power-bi-3.JPG" alt="" style="width: 100%; height: 200px; object-fit: cover;" />
-									</a>
-									<h5><a href="https://app.powerbi.com/view?r=eyJrIjoiYzczZjQxN2EtYjg0My00YzMwLThlYzItMmE5YzgzY2IwYzJhIiwidCI6IjhjMTI4NjJkLWZjYWYtNGEwNi05M2FjLTk0Yjk3YjVjZWQ1NSIsImMiOjEwfQ%3D%3D&fbclid=IwY2xjawFqVepleHRuA2FlbQIxMAABHdOLwDqJGHM-Y-FzsN0THkRNXClGLjLTafWQ62nfvhHkvnnwfpQsRAgPAw_aem_m1Gatf574sftYvg2QTV7Yg" style="font-weight: bold;">Market Sales Data Analysis</a></h5>
-									<p style="text-align: justify;">This project focuses on analyzing sales data to uncover key revenue drivers, profit trends, customer behavior, and product performance across regions and time periods. It highlights revenue breakdowns by ship mode, order priority, and top-performing countries, with total revenue reaching $12.64M and profits at $1.47M. Customer insights include 795 total customers and an average revenue per customer of $15.9K. The project identifies high-performing products like Apple Smart Devices and Office Supplies. Market analysis covers regions like Guatemala and the US, while order and shipping data reveal trends in sales distribution. Tools used include Power BI and Power Query. The goal is to optimize sales and marketing strategies based on insights from the analysis. The project offers actionable recommendations for revenue optimization, customer targeting, and product focus. Key findings will guide strategic business decisions and market expansion.</p>
-							</article>
-
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/power-bi-4.JPG" class="image fit thumb">
-										<img src="images/thumbs/power-bi-4.JPG" alt="" style="width: 100%; height: 200px; object-fit: cover;" />
-								</a>
-								<h5><a href="https://github.com/nafiul-araf/Google-Cloud/tree/main/Marketing%20Campaign%20Optimization" style="font-weight: bold;">Marketing Campaign Optimizations</a></h5>
-								<p style="text-align: justify;">This project analyzes marketing campaign performance to improve conversion rates and maximize ROI using EDA, hypothesis testing, regression, and trend analysis. The dataset covers one year of marketing data, revealing an average conversion rate of 8.01% and an ROI of 5.00. Influencer marketing via email performs best, while Facebook and website traffic drive high ROI. Customer segmentation shows different preferences—tech enthusiasts favor email, while foodies engage more with digital ads. Statistical tests highlight engagement metrics as key conversion predictors. Recommendations include increasing investment in high-performing channels, optimizing Google Ads, and personalizing campaigns. Predictive models help refine budget allocation and targeting. Challenges include data limitations and the need for better campaign variation. The project provides data-driven strategies to improve marketing efficiency, boost engagement, and enhance long-term profitability.</p>
-						</article>
-					</div>
-					
-					<h4 style="color: green; font-weight: bold;">SQL</h4>
-					<div class="row">
-							<article class="col-6 col-12-xsmall work-item">
-									<a href="images/fulls/sql-1.png" class="image fit thumb">
-											<img src="images/thumbs/sql-1.png" alt="" style="width: 100%; height: 200px; object-fit: cover;" />
-									</a>
-									<h5><a href="https://github.com/nafiul-araf/RFM-Segmentation" style="font-weight: bold;">RFM Segmentation</a></h5>
-									<p style="text-align: justify;">This project applies RFM (Recency, Frequency, Monetary) segmentation to classify customers based on purchasing behavior, enabling targeted marketing strategies. MySQL processes the data, while Python visualizes trends. Customers are scored using quartiles, categorizing them into segments like Loyal Customers, Big Spenders, and Potential Churners. Heatmaps analyze segment-wise behavior, revealing that Loyal Customers have high engagement and spending, while Potential Churners show high recency and low frequency. Geographic analysis highlights country-specific trends, with Spain having the most engaged customers and France showing high churn risk. The findings guide retention strategies, customer engagement, and marketing initiatives. Visualizations using scatter geo maps help businesses refine region-specific strategies. The project ensures businesses can optimize retention, boost loyalty, and enhance revenue by leveraging customer segmentation insights.</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-									<a href="images/fulls/sql-2.jpeg" class="image fit thumb">
-											<img src="images/thumbs/sql-2.jpeg" alt="" style="width: 100%; height: 200px; object-fit: cover;" />
-									</a>
-									<h5><a href="https://github.com/nafiul-araf/Cohort-Analysis-using-SQL-and-Power-BI" style="font-weight: bold;">Retail Cohort Analysis</a></h5>
-									<p style="text-align: justify;">This project conducts a cohort analysis using MySQL and Power BI to track customer retention, purchasing behavior, and revenue trends over time. Customers are grouped into cohorts based on their first purchase date, and metrics such as invoice counts, customer counts, and revenue are analyzed for each group. The analysis includes calculating the rate of change in invoices, customers, and revenue across time periods to assess growth or decline trends. Power BI visualizations help present these insights in an easy-to-understand manner. The project follows structured steps, including data loading into MySQL, aggregating invoice and customer counts by cohort, and analyzing revenue performance. By identifying long-term trends, businesses can improve customer engagement and optimize marketing strategies. The study also highlights revenue growth trends and customer lifetime value.</p>
-							</article>
+			<!-- Hero -->
+			<section class="hero" id="top">
+				<div class="container hero-grid">
+					<div class="hero-copy">
+						<img class="avatar" src="images/my_picture.jpeg" alt="Portrait of Md. Nafiul Islam" width="200" height="200" />
+						<p class="eyebrow">Power BI · Microsoft Fabric · Dhaka, Bangladesh</p>
+						<h1>Md. Nafiul Islam</h1>
+						<p class="lead">I build Power BI reports and semantic models on Microsoft Fabric, turning complicated datasets into stories people can actually use.</p>
+						<div class="hero-actions">
+							<a class="btn btn-primary" href="#projects">See projects</a>
+							<a class="btn btn-secondary" href="resume/Md_Nafiul_Islam.pdf" target="_blank" rel="noopener">
+								<svg class="icon" aria-hidden="true"><use href="#i-file" /></svg>Open résumé (PDF)
+							</a>
+						</div>
+						<ul class="socials">
+							<li><a href="https://www.linkedin.com/in/nafiul-araf-50b0b7203/" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-linkedin" /></svg>LinkedIn</a></li>
+							<li><a href="https://github.com/nafiul-araf" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-github" /></svg>GitHub</a></li>
+							<li><a href="mailto:araf.cuet16@gmail.com"><svg class="icon" aria-hidden="true"><use href="#i-mail" /></svg>Email</a></li>
+						</ul>
 					</div>
 
-					<h4 style="color: green; font-weight: bold;">Power BI & SQL</h4>
-<div class="row">
-    <article class="col-6 col-12-xsmall work-item">
-        <a href="images/fulls/powerbi-sql-1.JPG" class="image fit thumb">
-            <img src="images/thumbs/powerbi-sql-1.JPG" alt="" style="width: 100%; height: 200px; object-fit: cover;" />
-        </a>
-        <h5><a href="https://github.com/nafiul-araf/Pizza-Sales-Analysis-Report-SQL-and-PowerBI" style="font-weight: bold;">Pizza Sales Data Analysis</a></h5>
-        <p style="text-align: justify;">This project analyzes pizza sales using Power BI to track key metrics such as total revenue, order trends, and best/worst-selling pizzas. It evaluates sales performance based on pizza categories, sizes, and time periods to help improve business decisions. Key KPIs include total revenue, total pizzas sold, average order value, and revenue distribution by pizza size. Data visualization in Power BI enables quick insights into customer preferences and order trends by day and month. The project ranks top-performing and least-selling pizzas based on revenue and quantity sold. Additionally, it provides recommendations to optimize inventory and pricing strategies. SQL queries help extract insights from the dataset, ensuring accurate reporting. Overall, this project provides actionable insights to boost sales and efficiency.</p>
-    </article>
-    <article class="col-6 col-12-xsmall work-item">
-        <a href="images/fulls/powerbi-sql-2.JPG" class="image fit thumb">
-            <img src="images/thumbs/powerbi-sql-2.JPG" alt="" style="width: 100%; height: 200px; object-fit: cover;" />
-        </a>
-        <h5><a href="https://github.com/nafiul-araf/Sales-Insights-and-Performance-Data-Analysis" style="font-weight: bold;">Sales Insights and Performance Data Analysis</a></h5>
-        <p style="text-align: justify;">This project provides a comprehensive sales analysis across various markets, customers, and branches to identify revenue drivers and growth opportunities. It includes revenue, sales quantity, and profit margin breakdowns for different regions and customer types. Key insights highlight top-performing markets such as Jessore and Comilla, with Jessore contributing 742.99M৳ in revenue. The analysis includes customer segmentation, revealing that Electricalsara Stores generated the highest revenue (591.07M৳). Profit margins vary significantly across markets, with Brick & Mortar stores contributing 84.44% of the total profit margin. Year-on-year and quarter-on-quarter trends track growth, identifying peak performance periods and declines. The project uses Power BI, Power Query, and SQL for visualization and data manipulation. SQL queries help analyze customer records, market-specific transactions, and date-based revenue insights. Revenue growth trends from 2018 to 2020 show fluctuations, with a peak in Q1 2018 (+24.72%) and a decline in Q2 2020 (-19.89%). This data-driven approach enables businesses to optimize strategies, maximize profitability, and enhance customer engagement.</p>
-    </article>
-</div>
-
-<h4 style="color: green; font-weight: bold;">Snowflake & Google Cloud</h4>
-<div class="row">
-    <article class="col-6 col-12-xsmall work-item">
-        <a href="images/fulls/snow-1.JPG" class="image fit thumb">
-            <img src="images/thumbs/snow-1.JPG" alt="" style="width: 100%; height: 200px; object-fit: cover;" />
-        </a>
-        <h5><a href="https://github.com/nafiul-araf/Snowflake/tree/main/RFM%20Segmentation" style="font-weight: bold;">RFM Segmentation with Snowflake and Power BI Integration</a></h5>
-        <p style="text-align: justify;">This project focuses on customer behavior analysis using Recency, Frequency, and Monetary (RFM) segmentation. Customers are classified into various groups, such as Loyal Customers, Potential Churners, New Customers, and Big Spenders. By leveraging Snowflake for data storage and Power BI for visualization, the project helps businesses identify high-value customers and retention strategies. Recency analysis determines how recently customers made purchases, frequency tracks purchasing patterns, and monetary value assesses total spending. The segmentation framework allows targeted marketing, improving customer engagement and retention rates. Key performance indicators (KPIs) such as total active customers, average purchase value, and customer lifetime value are analyzed. The insights drive personalized promotions, loyalty programs, and proactive churn prevention. Snowflake’s cloud-based analytics enhance scalability, while Power BI visualizations make data interpretation seamless. This structured approach helps businesses improve revenue by optimizing customer relationships and marketing efforts.</p>
-    </article>
-
-    <article class="col-6 col-12-xsmall work-item">
-        <a href="images/fulls/bike.png" class="image fit thumb">
-            <img src="images/thumbs/bike.png" alt="" style="width: 100%; height: 200px; object-fit: cover;" />
-        </a>
-        <h5><a href="https://github.com/nafiul-araf/Snowflake/tree/main/Bike%20Share%20Analysis" style="font-weight: bold;">Bike Share Data Analysis with Snowflake, Python and Power BI</a></h5>
-        <p style="text-align: justify;">This project analyzes bike sales data across various markets, branches, and customer types to uncover revenue trends, profit margins, and growth patterns. Using Snowflake for data processing and Power BI for visualization, the project examines revenue generation by top markets and customer segments. Key insights include the highest revenue-contributing cities, top customers, and profit margins by sales channel (Brick & Mortar vs. E-Commerce). Year-on-year and quarter-on-quarter analysis tracks business growth, highlighting peak performance periods and downturns. SQL-based queries support data extraction, including filtering transactions by market, currency, and time period. Power BI dashboards present insights on sales quantity, profitability, and revenue trends to support strategic decision-making. This analysis helps optimize pricing, sales channels, and customer engagement strategies.</p>
-    </article>
-
-		<article class="col-6 col-12-xsmall work-item">
-			<a href="images/fulls/gc-1.JPG" class="image fit thumb">
-					<img src="images/thumbs/gc-1.JPG" alt="" style="width: 100%; height: 200px; object-fit: cover;" />
-			</a>
-			<h5><a href="https://github.com/nafiul-araf/Google-Cloud/tree/main/Bank%20Subscription%20Analysis" style="font-weight: bold;">Bank Subscription Analysis</a></h5>
-			<p style="text-align: justify;">This project examines customer subscription data from a bank’s marketing campaigns to identify key drivers influencing subscription behavior. Using BigQuery for data analysis and Power BI for visualization, the study explores the impact of demographics, financial status, and campaign effectiveness. Data preprocessing includes removing anomalies, categorizing customers, and analyzing campaign interactions. Machine learning models predict subscription likelihood and determine the most influential factors in customer decisions. Power BI dashboards display SQL-based insights, subscription trends, and predictive model results. Key findings suggest that younger customers and those with higher balances are more likely to subscribe. Short, targeted campaigns perform better than prolonged ones. This project helps financial institutions refine marketing strategies and improve customer acquisition.</p>
-	</article>
-
-	<article class="col-6 col-12-xsmall work-item">
-		<a href="images/fulls/gc-2.jpg" class="image fit thumb">
-				<img src="images/thumbs/gc-2.jpg" alt="" style="width: 100%; height: 200px; object-fit: cover;" />
-		</a>
-		<h5><a href="https://github.com/nafiul-araf/Google-Cloud/tree/main/Sales%20Data%20Analysis" style="font-weight: bold;">Sales Data Segmentation and Predictive Analysis</a></h5>
-		<p style="text-align: justify;">This project uses hierarchical clustering and predictive modeling to segment sales data and forecast revenue trends. The analysis identifies key business patterns by grouping customers and products based on profitability, sales channels, and shipping durations. Data preprocessing ensures clean, structured inputs for advanced analysis, while BigQuery stores processed data for scalability. Regression models predict revenue and profit with high accuracy, with feature importance analysis highlighting cost, order quantity, and shipping duration as major factors. Agglomerative clustering reveals high-profit segments, with wholesale channels performing best. Power BI dashboards integrate these insights for dynamic reporting. This project enables businesses to optimize pricing, supply chain strategies, and customer targeting efforts.</p>
-</article>
-</div>
-
-<h4 style="color: green; font-weight: bold;">Python and Machine Learning</h4>
-<div class="row">
-    <article class="col-6 col-12-xsmall work-item">
-        <a href="images/fulls/python-1.png" class="image fit thumb">
-            <img src="images/thumbs/python-1.png" alt="" style="width: 100%; height: 200px; object-fit: cover;" />
-        </a>
-        <h5><a href="https://github.com/nafiul-araf/EDA-and-Hypothesis-Test-on-Medical-Insurance" style="font-weight: bold;">EDA and Hypothesis Test on Medical Insurance</a></h5>
-        <p style="text-align: justify;">This project explores factors influencing medical insurance charges using EDA and hypothesis testing. Key demographic variables like age, BMI, smoker status, and region are analyzed for patterns in insurance costs. Visualizations such as count plots, regression plots, and pairwise relationships provide insights into data distribution. Proportion analysis highlights subgroup contributions to total charges. Hypothesis tests like Chi-square, T-tests, Z-tests, and ANOVA validate statistical significance. The one-sample and two-sample T-tests compare BMI and charges across demographics. Normality testing ensures data suitability for further analysis. The final findings assist insurers in risk assessment. Advanced statistical tests refine insights for pricing strategies. The project guides data-driven decision-making in the insurance industry.</p>
-    </article>
-    <article class="col-6 col-12-xsmall work-item">
-        <a href="images/fulls/python-4.jpeg" class="image fit thumb">
-            <img src="images/thumbs/python-4.jpeg" alt="" style="width: 100%; height: 200px; object-fit: cover;" />
-        </a>
-        <h5><a href="https://github.com/nafiul-araf/Credit-Risk-Modeling-End-to-End-Project" style="font-weight: bold;">Credit Risk Modeling</a></h5>
-        <p style="text-align: justify;">This project develops a machine learning model for predicting credit default risk. Using an imbalanced dataset, feature engineering and resampling techniques improve classification accuracy. Models like Logistic Regression, Random Forest, and XGBoost are evaluated, with XGBoost performing best. The model achieves a high AUC of 0.98, Gini of 0.97, and KS statistic of 86.87%. Interpretability is ensured through SHAP and LIME analysis. AUC-ROC curves and decile analysis confirm model reliability. Deployment strategies focus on retraining to mitigate risks from under-sampling. A Streamlit-based interactive interface enables real-time credit scoring. The project integrates machine learning with business needs for financial decision-making. Findings enhance risk assessment in lending institutions.</p>
-    </article>
-    <article class="col-6 col-12-xsmall work-item">
-        <a href="images/fulls/python-2.png" class="image fit thumb">
-            <img src="images/thumbs/python-2.png" alt="" style="width: 100%; height: 200px; object-fit: cover;" />
-        </a>
-        <h5><a href="https://github.com/nafiul-araf/Data-Analysis-Projects-with-Python-and-SQL/tree/main/Python%20Projects/Clustering/Retail%20Customer%20Segmentation" style="font-weight: bold;">Retail Customer Segmentation</a></h5>
-        <p style="text-align: justify;">This project segments retail customers using clustering techniques based on purchasing behavior. Features such as Quantity, UnitPrice, and Revenue help identify distinct customer groups. Cluster analysis supports targeted marketing and personalized promotions. Revenue and purchase quantity trends reveal seasonal variations. Classification models predict customer segments for new data entries. Insights aid banks and financial institutions in optimizing customer relationships. Clustering helps improve promotions and inventory management strategies. The framework is adaptable to various industries and datasets. A structured approach enhances customer engagement and business decision-making. The project provides a data-driven methodology for retail customer analysis.</p>
-    </article>
-    <article class="col-6 col-12-xsmall work-item">
-        <a href="images/fulls/python-3.png" class="image fit thumb">
-            <img src="images/thumbs/python-3.png" alt="" style="width: 100%; height: 200px; object-fit: cover;" />
-        </a>
-        <h5><a href="https://github.com/nafiul-araf/Airlines-Customer-Satisfaction" style="font-weight: bold;">Airlines Customer Satisfaction Analysis</a></h5>
-        <p style="text-align: justify;">This project predicts airline customer satisfaction using machine learning techniques. Key drivers include demographics, travel preferences, and service quality metrics. Data preprocessing and feature engineering optimize model performance. Logistic Regression, Random Forest, and LightGBM models are tested, with LightGBM achieving the highest accuracy (86.16%) and AUC (0.94). Findings indicate service quality is the most critical factor in satisfaction. A Streamlit Cloud-based deployment enables real-time customer sentiment predictions. The airline can proactively address dissatisfaction and enhance loyalty. Predictive analytics aids in strategic decision-making and service improvements. The model balances accuracy and interpretability for real-world applications. This project showcases machine learning's role in improving customer experience.
-				</p>
-    </article>
-</div>
-					
-					<ul class="actions">
-							<li><a href="https://github.com/nafiul-araf/Data-Analysis-Projects-with-Python-and-SQL" class="button" style="font-weight: bold;">Other Projects</a></li>
-					</ul>
+					<aside class="card glance" aria-labelledby="glance-title">
+						<h2 class="visual-title" id="glance-title">At a glance</h2>
+						<dl class="facts">
+							<div>
+								<dt>Current role</dt>
+								<dd>Junior Power BI Report Developer at <a href="https://datacrafters.io/" target="_blank" rel="noopener">Data Crafters</a></dd>
+							</div>
+							<div>
+								<dt>Certified</dt>
+								<dd>Microsoft Certified: Power BI Data Analyst Associate (PL-300)</dd>
+							</div>
+							<div>
+								<dt>Works with</dt>
+								<dd>Microsoft Fabric, OneLake, Direct Lake, DAX</dd>
+							</div>
+							<div>
+								<dt>Based in</dt>
+								<dd>Dhaka, Bangladesh</dd>
+							</div>
+						</dl>
+					</aside>
+				</div>
 			</section>
 
-				<!-- Three -->
-					<section id="three">
-						<h2 style="color: #000000; font-weight: bold;">Get In Touch</h2>
-						<!-- <p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
-						<div class="row">
-							<div class="col-8 col-12-small">
-								<form method="post" action="#">
-									<div class="row gtr-uniform gtr-50">
-										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
-										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-										<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
-									</div>
-								</form>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</div> -->
-							<div class="col-4 col-12-small">
-								<ul class="labeled-icons">
-									<li>
-										<h3 class="icon solid fa-home"><span class="label">Address</span></h3>
-										10, Purbachal Rd.<br />
-										Uttar Badda, Dhaka 1212<br />
-										Bangladesh
-									</li>
-									<!-- <li>
-										<h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
-										000-000-0000
-									</li> -->
-									<li>
-										<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
-										<a href="#">araf.cuet16@gmail.com</a>
-									</li>
-								</ul>
-							</div>
+			<!-- About -->
+			<section class="section" id="about" aria-labelledby="about-title">
+				<div class="container about-grid">
+					<div class="about-text">
+						<h2 class="section-title" id="about-title">About me</h2>
+						<p class="about-lead">I’m a data analytics professional who enjoys working with Microsoft Fabric, Power BI, Python, Excel, and statistics. As a <strong>Microsoft Certified: Power BI Data Analyst Associate (PL-300)</strong>, I spend most of my time building and maintaining Power BI reports and dashboards that live on Microsoft Fabric, using lakehouses, OneLake, and the medallion architecture to organize and serve data effectively.</p>
+						<p>I like turning complicated datasets into stories that people can actually use. I’m always learning more about the Microsoft analytics ecosystem and modern data architectures. These days I’m focused on improving data flows in Fabric, making reports faster and easier to understand, and keeping everything well-structured and governed. My aim is to deliver clear, reliable insights that help teams make better decisions every day.</p>
+					</div>
+
+					<div class="card skills" aria-labelledby="skills-title">
+						<h3 class="visual-title" id="skills-title">Skills</h3>
+						<div class="skill-group">
+							<h4>Reporting &amp; BI</h4>
+							<ul class="chips"><li>Power BI</li><li>Excel</li></ul>
 						</div>
-					</section>
-
-				<!-- Four -->
-				<!--
-					<section id="four">
-						<h2>Elements</h2>
-
-						<section>
-							<h4>Text</h4>
-							<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-							This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-							This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-							<hr />
-							<header>
-								<h4>Heading with a Subtitle</h4>
-								<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-							</header>
-							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-							<header>
-								<h5>Heading with a Subtitle</h5>
-								<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-							</header>
-							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-							<hr />
-							<h2>Heading Level 2</h2>
-							<h3>Heading Level 3</h3>
-							<h4>Heading Level 4</h4>
-							<h5>Heading Level 5</h5>
-							<h6>Heading Level 6</h6>
-							<hr />
-							<h5>Blockquote</h5>
-							<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-							<h5>Preformatted</h5>
-							<pre><code>i = 0;
-
-while (!deck.isInOrder()) {
-print 'Iteration ' + i;
-deck.shuffle();
-i++;
-}
-
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-						</section>
-
-						<section>
-							<h4>Lists</h4>
-							<div class="row">
-								<div class="col-6 col-12-xsmall">
-									<h5>Unordered</h5>
-									<ul>
-										<li>Dolor pulvinar etiam magna etiam.</li>
-										<li>Sagittis adipiscing lorem eleifend.</li>
-										<li>Felis enim feugiat dolore viverra.</li>
-									</ul>
-									<h5>Alternate</h5>
-									<ul class="alt">
-										<li>Dolor pulvinar etiam magna etiam.</li>
-										<li>Sagittis adipiscing lorem eleifend.</li>
-										<li>Felis enim feugiat dolore viverra.</li>
-									</ul>
-								</div>
-								<div class="col-6 col-12-xsmall">
-									<h5>Ordered</h5>
-									<ol>
-										<li>Dolor pulvinar etiam magna etiam.</li>
-										<li>Etiam vel felis at lorem sed viverra.</li>
-										<li>Felis enim feugiat dolore viverra.</li>
-										<li>Dolor pulvinar etiam magna etiam.</li>
-										<li>Etiam vel felis at lorem sed viverra.</li>
-										<li>Felis enim feugiat dolore viverra.</li>
-									</ol>
-									<h5>Icons</h5>
-									<ul class="icons">
-										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-										<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-										<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
-									</ul>
-								</div>
-							</div>
-							<h5>Actions</h5>
-							<ul class="actions">
-								<li><a href="#" class="button primary">Default</a></li>
-								<li><a href="#" class="button">Default</a></li>
-							</ul>
-							<ul class="actions small">
-								<li><a href="#" class="button primary small">Small</a></li>
-								<li><a href="#" class="button small">Small</a></li>
-							</ul>
-							<div class="row">
-								<div class="col-6 col-12-small">
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-								</div>
-								<div class="col-6 col-12-small">
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary small">Small</a></li>
-										<li><a href="#" class="button small">Small</a></li>
-									</ul>
-								</div>
-								<div class="col-6 col-12-small">
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary fit">Default</a></li>
-										<li><a href="#" class="button fit">Default</a></li>
-									</ul>
-								</div>
-								<div class="col-6 col-12-small">
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary small fit">Small</a></li>
-										<li><a href="#" class="button small fit">Small</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-
-						<section>
-							<h4>Table</h4>
-							<h5>Default</h5>
-							<div class="table-wrapper">
-								<table>
-									<thead>
-										<tr>
-											<th>Name</th>
-											<th>Description</th>
-											<th>Price</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>Item One</td>
-											<td>Ante turpis integer aliquet porttitor.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>Item Two</td>
-											<td>Vis ac commodo adipiscing arcu aliquet.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>Item Three</td>
-											<td> Morbi faucibus arcu accumsan lorem.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>Item Four</td>
-											<td>Vitae integer tempus condimentum.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>Item Five</td>
-											<td>Ante turpis integer aliquet porttitor.</td>
-											<td>29.99</td>
-										</tr>
-									</tbody>
-									<tfoot>
-										<tr>
-											<td colspan="2"></td>
-											<td>100.00</td>
-										</tr>
-									</tfoot>
-								</table>
-							</div>
-
-							<h5>Alternate</h5>
-							<div class="table-wrapper">
-								<table class="alt">
-									<thead>
-										<tr>
-											<th>Name</th>
-											<th>Description</th>
-											<th>Price</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>Item One</td>
-											<td>Ante turpis integer aliquet porttitor.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>Item Two</td>
-											<td>Vis ac commodo adipiscing arcu aliquet.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>Item Three</td>
-											<td> Morbi faucibus arcu accumsan lorem.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>Item Four</td>
-											<td>Vitae integer tempus condimentum.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>Item Five</td>
-											<td>Ante turpis integer aliquet porttitor.</td>
-											<td>29.99</td>
-										</tr>
-									</tbody>
-									<tfoot>
-										<tr>
-											<td colspan="2"></td>
-											<td>100.00</td>
-										</tr>
-									</tfoot>
-								</table>
-							</div>
-						</section>
-
-						<section>
-							<h4>Buttons</h4>
-							<ul class="actions">
-								<li><a href="#" class="button primary">Primary</a></li>
-								<li><a href="#" class="button">Default</a></li>
-							</ul>
-							<ul class="actions">
-								<li><a href="#" class="button large">Large</a></li>
-								<li><a href="#" class="button">Default</a></li>
-								<li><a href="#" class="button small">Small</a></li>
-							</ul>
-							<ul class="actions fit">
-								<li><a href="#" class="button primary fit">Fit</a></li>
-								<li><a href="#" class="button fit">Fit</a></li>
-							</ul>
-							<ul class="actions fit small">
-								<li><a href="#" class="button primary fit small">Fit + Small</a></li>
-								<li><a href="#" class="button fit small">Fit + Small</a></li>
-							</ul>
-							<ul class="actions">
-								<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
-								<li><a href="#" class="button icon solid fa-download">Icon</a></li>
-							</ul>
-							<ul class="actions">
-								<li><span class="button primary disabled">Primary</span></li>
-								<li><span class="button disabled">Default</span></li>
-							</ul>
-						</section>
-
-						<section>
-							<h4>Form</h4>
-							<form method="post" action="#">
-								<div class="row gtr-uniform gtr-50">
-									<div class="col-6 col-12-xsmall">
-										<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
-									</div>
-									<div class="col-6 col-12-xsmall">
-										<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
-									</div>
-									<div class="col-12">
-										<select name="demo-category" id="demo-category">
-											<option value="">- Category -</option>
-											<option value="1">Manufacturing</option>
-											<option value="1">Shipping</option>
-											<option value="1">Administration</option>
-											<option value="1">Human Resources</option>
-										</select>
-									</div>
-									<div class="col-4 col-12-small">
-										<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-										<label for="demo-priority-low">Low Priority</label>
-									</div>
-									<div class="col-4 col-12-small">
-										<input type="radio" id="demo-priority-normal" name="demo-priority">
-										<label for="demo-priority-normal">Normal Priority</label>
-									</div>
-									<div class="col-4 col-12-small">
-										<input type="radio" id="demo-priority-high" name="demo-priority">
-										<label for="demo-priority-high">High Priority</label>
-									</div>
-									<div class="col-6 col-12-small">
-										<input type="checkbox" id="demo-copy" name="demo-copy">
-										<label for="demo-copy">Email me a copy of this message</label>
-									</div>
-									<div class="col-6 col-12-small">
-										<input type="checkbox" id="demo-human" name="demo-human" checked>
-										<label for="demo-human">I am a human and not a robot</label>
-									</div>
-									<div class="col-12">
-										<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-									</div>
-									<div class="col-12">
-										<ul class="actions">
-											<li><input type="submit" value="Send Message" class="primary" /></li>
-											<li><input type="reset" value="Reset" /></li>
-										</ul>
-									</div>
-								</div>
-							</form>
-						</section>
-
-						<section>
-							<h4>Image</h4>
-							<h5>Fit</h5>
-							<div class="box alt">
-								<div class="row gtr-50 gtr-uniform">
-									<div class="col-12"><span class="image fit"><img src="images/fulls/05.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/04.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/05.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/06.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>
-								</div>
-							</div>
-							<h5>Left &amp; Right</h5>
-							<p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-							<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-						</section>
-
-					</section>
-				-->
-
-			</div>
-
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="inner">
-					<ul class="icons">
-						<li><a href="https://www.linkedin.com/in/nafiul-araf-50b0b7203/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
-						<li><a href="https://github.com/nafiul-araf" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<!-- <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li> -->
-						<!-- <li><a href="araf.cuet16@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li> -->
-					</ul>
-					<ul class="copyright">
-						<li>&copy; 2026</li>
-					</ul>
+						<div class="skill-group">
+							<h4>Data platform</h4>
+							<ul class="chips"><li>Microsoft Fabric</li><li>Data Warehouse</li><li>RDBMS</li></ul>
+						</div>
+						<div class="skill-group">
+							<h4>Analysis</h4>
+							<ul class="chips"><li>Python</li><li>Statistics</li><li>Machine Learning</li></ul>
+						</div>
+					</div>
 				</div>
-			</footer>
+			</section>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+			<!-- Experience -->
+			<section class="section" id="experience" aria-labelledby="experience-title">
+				<div class="container">
+					<div class="section-head">
+						<h2 class="section-title" id="experience-title">Experience</h2>
+						<p>Each bar shows when a role ran, on one timeline from 2023 to today.</p>
+					</div>
 
+					<div class="timeline" data-start="2023-01" data-end-year="2026" style="--span: 48; --today: 45.6;">
+						<div class="axis" aria-hidden="true">
+							<span style="--at: 0">2023</span>
+							<span style="--at: 12">2024</span>
+							<span style="--at: 24">2025</span>
+							<span style="--at: 36">2026</span>
+							<span class="axis-today" style="--at: 45.6">Today</span>
+						</div>
+
+						<div class="jobs">
+							<article class="card job">
+								<h3 class="job-company"><a href="https://datacrafters.io/" target="_blank" rel="noopener">Data Crafters<svg class="icon" aria-hidden="true"><use href="#i-arrow" /></svg></a></h3>
+								<div class="role">
+									<div class="role-head">
+										<h4 class="role-title">Junior Power BI Report Developer</h4>
+										<p class="role-dates">Oct 2025 – Present <span class="role-duration" data-duration-from="2025-10">· 1 yr 1 mo</span></p>
+									</div>
+									<div class="track" aria-hidden="true"><span class="bar is-current" data-from="2025-10" data-to="present" style="--from: 33; --to: 45.6; --i: 0"></span></div>
+									<ul class="points">
+										<li>Optimized and redesigned enterprise Power BI reports, improving navigation, usability, and clarity, contributing to a 59% increase in monthly report views and a 32% reduction in report redundancy.</li>
+										<li>Automated Excel-based HR reporting using Power BI and Microsoft Fabric pipelines, reducing manual reporting effort by 80–90% and enabling automated workforce analytics.</li>
+										<li>Developed workforce productivity and capacity dashboards to track utilization, workload, billable hours, and workforce trends, supporting resource allocation and capacity planning.</li>
+										<li>Built and maintained Power BI semantic models and reports using Microsoft Fabric Direct Lake, enabling near-real-time analytics on curated OneLake data across Sales, Production, Procurement, and Inventory.</li>
+										<li>Standardized critical business metrics through centralized business logic and DAX measures, while ensuring data accuracy through validation, schema impact analysis, and data quality checks.</li>
+										<li>Applied enterprise Power BI best practices for semantic modeling, performance optimization, report design, and governance, including standardized themes and TMDL-based Row-Level Security (RLS).</li>
+									</ul>
+								</div>
+							</article>
+
+							<article class="card job">
+								<h3 class="job-company"><a href="https://www.datasolution360.com/" target="_blank" rel="noopener">Data Solution 360<svg class="icon" aria-hidden="true"><use href="#i-arrow" /></svg></a></h3>
+								<div class="role">
+									<div class="role-head">
+										<h4 class="role-title">Junior Data Scientist</h4>
+										<p class="role-dates">Mar 2025 – Sep 2025 <span class="role-duration">· 7 mos</span></p>
+									</div>
+									<div class="track" aria-hidden="true"><span class="bar" data-from="2025-03" data-to="2025-09" style="--from: 26; --to: 33; --i: 1"></span></div>
+									<ul class="points">
+										<li>Built Power BI dashboards for a retail chain, improving data accuracy and manual reporting.</li>
+										<li>Developed real-time sales dashboards, reducing manual reporting by 50%.</li>
+										<li>Worked on AI-based Job-Board solution (search, recommendation, cv checker).</li>
+										<li>Provided technical support (SQL, Python) to students of Data Solution 360 Edutech.</li>
+									</ul>
+								</div>
+								<div class="role">
+									<div class="role-head">
+										<h4 class="role-title">Data Science Intern</h4>
+										<p class="role-dates">Sep 2024 – Feb 2025 <span class="role-duration">· 6 mos</span></p>
+									</div>
+									<div class="track" aria-hidden="true"><span class="bar" data-from="2024-09" data-to="2025-02" style="--from: 20; --to: 26; --i: 2"></span></div>
+									<ul class="points">
+										<li>Built NGO analytics dashboard using Power BI.</li>
+										<li>Gained expertise in MySQL, PostgreSQL, data warehousing, and MLOps, applying database management and pipeline optimization to support real-world business analytics projects.</li>
+										<li>Implemented real-world portfolio projects to apply acquired skills, demonstrate expertise, and build a strong professional portfolio.</li>
+									</ul>
+								</div>
+							</article>
+
+							<article class="card job">
+								<h3 class="job-company">Orboroi</h3>
+								<div class="role">
+									<div class="role-head">
+										<h4 class="role-title">Senior Analyst</h4>
+										<p class="role-dates">Jan 2023 – Jun 2024 <span class="role-duration">· 1 yr 6 mos</span></p>
+									</div>
+									<div class="track" aria-hidden="true"><span class="bar" data-from="2023-01" data-to="2024-06" style="--from: 0; --to: 18; --i: 3"></span></div>
+									<ul class="points">
+										<li>Delivered 99% accurate annotations for forestry &amp; medical imaging.</li>
+										<li>Supported lead generation and campaign content.</li>
+										<li>Awarded the Rising Star title for achieving high client satisfaction.</li>
+										<li>Medical image segmentation and annotation for object detection.</li>
+										<li>Honored with the Employee of the Month award three times for outstanding performance and dedication.</li>
+									</ul>
+								</div>
+							</article>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Projects -->
+			<section class="section" id="projects" aria-labelledby="projects-title">
+				<div class="container">
+					<div class="section-head">
+						<h2 class="section-title" id="projects-title">Projects</h2>
+						<p>Filter by tool. Select a screenshot to see it full size.</p>
+					</div>
+
+					<div class="slicer" role="group" aria-label="Filter projects by tool">
+						<button type="button" data-filter="all" aria-pressed="true">All <span class="count">18</span></button>
+						<button type="button" data-filter="powerbi" aria-pressed="false">Power BI <span class="count">11</span></button>
+						<button type="button" data-filter="sql" aria-pressed="false">SQL <span class="count">6</span></button>
+						<button type="button" data-filter="pyml" aria-pressed="false">Python &amp; ML <span class="count">8</span></button>
+						<button type="button" data-filter="cloud" aria-pressed="false">Snowflake &amp; BigQuery <span class="count">4</span></button>
+						<button type="button" data-filter="excel" aria-pressed="false">Excel <span class="count">2</span></button>
+					</div>
+					<p class="result-note" id="project-count" aria-live="polite">Showing all 18 projects</p>
+
+					<div class="projects">
+
+						<!-- Power BI -->
+						<article class="card project" data-tags="powerbi">
+							<a class="shot" href="images/fulls/power-bi-1.JPG">
+								<img src="images/thumbs/power-bi-1.JPG" alt="Screenshot of the Supply Chain Management Dashboard" loading="lazy" decoding="async" />
+								<span class="badge-live">Live report</span>
+								<span class="shot-hint"><svg class="icon" aria-hidden="true"><use href="#i-expand" /></svg>Enlarge</span>
+							</a>
+							<div class="project-body">
+								<ul class="tools"><li>Power BI</li></ul>
+								<h3 class="project-title">Supply Chain Management Dashboard</h3>
+								<p class="desc">This project showcases a Power BI dashboard for monitoring supply chain performance across financial, operational, and inventory metrics. It features multi-page analysis covering key areas such as quality control, logistics, and individual product performance. Drill-through functionality allows users to explore specific products in detail. Dynamic visualizations enhance interactivity, enabling real-time data exploration. Filter bookmarks and page navigation streamline user experience. The dashboard highlights trends in transportation efficiency, carrier performance, and revenue variability. Key findings help identify bottlenecks, optimize logistics, and improve quality control. Power BI's advanced features, including tooltips and interactive charts, make the dashboard highly intuitive. The project demonstrates expertise in data visualization and business intelligence. It serves as a powerful decision-making tool for optimizing supply chain management.</p>
+								<button class="more" type="button" aria-expanded="false" hidden>Read more</button>
+								<a class="project-link" href="https://app.powerbi.com/view?r=eyJrIjoiZTJjNzlmMDItYTMwOC00ZmFlLWEzMzgtOGI3MWI0NGNmNGRlIiwidCI6IjhjMTI4NjJkLWZjYWYtNGEwNi05M2FjLTk0Yjk3YjVjZWQ1NSIsImMiOjEwfQ%3D%3D" target="_blank" rel="noopener">Open live report<svg class="icon" aria-hidden="true"><use href="#i-arrow" /></svg></a>
+							</div>
+						</article>
+
+						<article class="card project" data-tags="powerbi">
+							<a class="shot" href="images/fulls/power-bi-2.JPG">
+								<img src="images/thumbs/power-bi-2.JPG" alt="Screenshot of the Healthcare Provider Data Analysis report" loading="lazy" decoding="async" />
+								<span class="badge-live">Live report</span>
+								<span class="shot-hint"><svg class="icon" aria-hidden="true"><use href="#i-expand" /></svg>Enlarge</span>
+							</a>
+							<div class="project-body">
+								<ul class="tools"><li>Power BI</li><li>Power Query</li></ul>
+								<h3 class="project-title">Healthcare Provider Data Analysis</h3>
+								<p class="desc">This project analyzes financial and operational data from a healthcare provider to optimize efficiency and patient care. The total billing amount was £3.36M, with X-Rays contributing the highest revenue (£1.05M). Cardiology recorded the most visits (823), while hypertension was the top-billed diagnosis (29.71%). Provider performance analysis identified top-rated doctors and areas for improvement. Patient data insights included length of stay, visit types, and demographics. Key recommendations include optimizing high-cost procedures and improving provider efficiency. Billing trends across departments highlight opportunities for cost management. Power BI and Power Query were used for data visualization and analysis. The project demonstrates how data-driven strategies can enhance financial management and healthcare quality. Findings can support decision-making to improve patient outcomes and provider performance.</p>
+								<button class="more" type="button" aria-expanded="false" hidden>Read more</button>
+								<a class="project-link" href="https://app.powerbi.com/view?r=eyJrIjoiNGZhOTllZWMtZDk1NS00Y2RiLTk1ZDktYzBhYzA4Y2IxNjRiIiwidCI6IjhjMTI4NjJkLWZjYWYtNGEwNi05M2FjLTk0Yjk3YjVjZWQ1NSIsImMiOjEwfQ%3D%3D" target="_blank" rel="noopener">Open live report<svg class="icon" aria-hidden="true"><use href="#i-arrow" /></svg></a>
+							</div>
+						</article>
+
+						<article class="card project" data-tags="powerbi">
+							<a class="shot" href="images/fulls/power-bi-3.JPG">
+								<img src="images/thumbs/power-bi-3.JPG" alt="Screenshot of the Market Sales Data Analysis report" loading="lazy" decoding="async" />
+								<span class="badge-live">Live report</span>
+								<span class="shot-hint"><svg class="icon" aria-hidden="true"><use href="#i-expand" /></svg>Enlarge</span>
+							</a>
+							<div class="project-body">
+								<ul class="tools"><li>Power BI</li><li>Power Query</li></ul>
+								<h3 class="project-title">Market Sales Data Analysis</h3>
+								<p class="desc">This project focuses on analyzing sales data to uncover key revenue drivers, profit trends, customer behavior, and product performance across regions and time periods. It highlights revenue breakdowns by ship mode, order priority, and top-performing countries, with total revenue reaching $12.64M and profits at $1.47M. Customer insights include 795 total customers and an average revenue per customer of $15.9K. The project identifies high-performing products like Apple Smart Devices and Office Supplies. Market analysis covers regions like Guatemala and the US, while order and shipping data reveal trends in sales distribution. Tools used include Power BI and Power Query. The goal is to optimize sales and marketing strategies based on insights from the analysis. The project offers actionable recommendations for revenue optimization, customer targeting, and product focus. Key findings will guide strategic business decisions and market expansion.</p>
+								<button class="more" type="button" aria-expanded="false" hidden>Read more</button>
+								<a class="project-link" href="https://app.powerbi.com/view?r=eyJrIjoiYzczZjQxN2EtYjg0My00YzMwLThlYzItMmE5YzgzY2IwYzJhIiwidCI6IjhjMTI4NjJkLWZjYWYtNGEwNi05M2FjLTk0Yjk3YjVjZWQ1NSIsImMiOjEwfQ%3D%3D" target="_blank" rel="noopener">Open live report<svg class="icon" aria-hidden="true"><use href="#i-arrow" /></svg></a>
+							</div>
+						</article>
+
+						<article class="card project" data-tags="powerbi">
+							<a class="shot" href="images/fulls/power-bi-4.JPG">
+								<img src="images/thumbs/power-bi-4.JPG" alt="Screenshot of the Marketing Campaign Optimizations report" loading="lazy" decoding="async" />
+								<span class="shot-hint"><svg class="icon" aria-hidden="true"><use href="#i-expand" /></svg>Enlarge</span>
+							</a>
+							<div class="project-body">
+								<ul class="tools"><li>Power BI</li><li>Statistics</li></ul>
+								<h3 class="project-title">Marketing Campaign Optimizations</h3>
+								<p class="desc">This project analyzes marketing campaign performance to improve conversion rates and maximize ROI using EDA, hypothesis testing, regression, and trend analysis. The dataset covers one year of marketing data, revealing an average conversion rate of 8.01% and an ROI of 5.00. Influencer marketing via email performs best, while Facebook and website traffic drive high ROI. Customer segmentation shows different preferences—tech enthusiasts favor email, while foodies engage more with digital ads. Statistical tests highlight engagement metrics as key conversion predictors. Recommendations include increasing investment in high-performing channels, optimizing Google Ads, and personalizing campaigns. Predictive models help refine budget allocation and targeting. Challenges include data limitations and the need for better campaign variation. The project provides data-driven strategies to improve marketing efficiency, boost engagement, and enhance long-term profitability.</p>
+								<button class="more" type="button" aria-expanded="false" hidden>Read more</button>
+								<a class="project-link" href="https://github.com/nafiul-araf/Google-Cloud/tree/main/Marketing%20Campaign%20Optimization" target="_blank" rel="noopener">View on GitHub<svg class="icon" aria-hidden="true"><use href="#i-arrow" /></svg></a>
+							</div>
+						</article>
+
+						<!-- Power BI & SQL -->
+						<article class="card project" data-tags="powerbi sql">
+							<a class="shot" href="images/fulls/powerbi-sql-1.JPG">
+								<img src="images/thumbs/powerbi-sql-1.JPG" alt="Screenshot of the Pizza Sales Data Analysis report" loading="lazy" decoding="async" />
+								<span class="shot-hint"><svg class="icon" aria-hidden="true"><use href="#i-expand" /></svg>Enlarge</span>
+							</a>
+							<div class="project-body">
+								<ul class="tools"><li>Power BI</li><li>SQL</li></ul>
+								<h3 class="project-title">Pizza Sales Data Analysis</h3>
+								<p class="desc">This project analyzes pizza sales using Power BI to track key metrics such as total revenue, order trends, and best/worst-selling pizzas. It evaluates sales performance based on pizza categories, sizes, and time periods to help improve business decisions. Key KPIs include total revenue, total pizzas sold, average order value, and revenue distribution by pizza size. Data visualization in Power BI enables quick insights into customer preferences and order trends by day and month. The project ranks top-performing and least-selling pizzas based on revenue and quantity sold. Additionally, it provides recommendations to optimize inventory and pricing strategies. SQL queries help extract insights from the dataset, ensuring accurate reporting. Overall, this project provides actionable insights to boost sales and efficiency.</p>
+								<button class="more" type="button" aria-expanded="false" hidden>Read more</button>
+								<a class="project-link" href="https://github.com/nafiul-araf/Pizza-Sales-Analysis-Report-SQL-and-PowerBI" target="_blank" rel="noopener">View on GitHub<svg class="icon" aria-hidden="true"><use href="#i-arrow" /></svg></a>
+							</div>
+						</article>
+
+						<article class="card project" data-tags="powerbi sql">
+							<a class="shot" href="images/fulls/powerbi-sql-2.JPG">
+								<img src="images/thumbs/powerbi-sql-2.JPG" alt="Screenshot of the Sales Insights and Performance report" loading="lazy" decoding="async" />
+								<span class="shot-hint"><svg class="icon" aria-hidden="true"><use href="#i-expand" /></svg>Enlarge</span>
+							</a>
+							<div class="project-body">
+								<ul class="tools"><li>Power BI</li><li>SQL</li><li>Power Query</li></ul>
+								<h3 class="project-title">Sales Insights and Performance Data Analysis</h3>
+								<p class="desc">This project provides a comprehensive sales analysis across various markets, customers, and branches to identify revenue drivers and growth opportunities. It includes revenue, sales quantity, and profit margin breakdowns for different regions and customer types. Key insights highlight top-performing markets such as Jessore and Comilla, with Jessore contributing 742.99M৳ in revenue. The analysis includes customer segmentation, revealing that Electricalsara Stores generated the highest revenue (591.07M৳). Profit margins vary significantly across markets, with Brick &amp; Mortar stores contributing 84.44% of the total profit margin. Year-on-year and quarter-on-quarter trends track growth, identifying peak performance periods and declines. The project uses Power BI, Power Query, and SQL for visualization and data manipulation. SQL queries help analyze customer records, market-specific transactions, and date-based revenue insights. Revenue growth trends from 2018 to 2020 show fluctuations, with a peak in Q1 2018 (+24.72%) and a decline in Q2 2020 (-19.89%). This data-driven approach enables businesses to optimize strategies, maximize profitability, and enhance customer engagement.</p>
+								<button class="more" type="button" aria-expanded="false" hidden>Read more</button>
+								<a class="project-link" href="https://github.com/nafiul-araf/Sales-Insights-and-Performance-Data-Analysis" target="_blank" rel="noopener">View on GitHub<svg class="icon" aria-hidden="true"><use href="#i-arrow" /></svg></a>
+							</div>
+						</article>
+
+						<!-- SQL -->
+						<article class="card project" data-tags="sql pyml">
+							<a class="shot" href="images/fulls/sql-1.png">
+								<img src="images/thumbs/sql-1.png" alt="Chart from the RFM Segmentation project" loading="lazy" decoding="async" />
+								<span class="shot-hint"><svg class="icon" aria-hidden="true"><use href="#i-expand" /></svg>Enlarge</span>
+							</a>
+							<div class="project-body">
+								<ul class="tools"><li>MySQL</li><li>Python</li></ul>
+								<h3 class="project-title">RFM Segmentation</h3>
+								<p class="desc">This project applies RFM (Recency, Frequency, Monetary) segmentation to classify customers based on purchasing behavior, enabling targeted marketing strategies. MySQL processes the data, while Python visualizes trends. Customers are scored using quartiles, categorizing them into segments like Loyal Customers, Big Spenders, and Potential Churners. Heatmaps analyze segment-wise behavior, revealing that Loyal Customers have high engagement and spending, while Potential Churners show high recency and low frequency. Geographic analysis highlights country-specific trends, with Spain having the most engaged customers and France showing high churn risk. The findings guide retention strategies, customer engagement, and marketing initiatives. Visualizations using scatter geo maps help businesses refine region-specific strategies. The project ensures businesses can optimize retention, boost loyalty, and enhance revenue by leveraging customer segmentation insights.</p>
+								<button class="more" type="button" aria-expanded="false" hidden>Read more</button>
+								<a class="project-link" href="https://github.com/nafiul-araf/RFM-Segmentation" target="_blank" rel="noopener">View on GitHub<svg class="icon" aria-hidden="true"><use href="#i-arrow" /></svg></a>
+							</div>
+						</article>
+
+						<article class="card project" data-tags="sql powerbi">
+							<a class="shot" href="images/fulls/sql-2.jpeg">
+								<img src="images/thumbs/sql-2.jpeg" alt="Chart from the Retail Cohort Analysis project" loading="lazy" decoding="async" />
+								<span class="shot-hint"><svg class="icon" aria-hidden="true"><use href="#i-expand" /></svg>Enlarge</span>
+							</a>
+							<div class="project-body">
+								<ul class="tools"><li>MySQL</li><li>Power BI</li></ul>
+								<h3 class="project-title">Retail Cohort Analysis</h3>
+								<p class="desc">This project conducts a cohort analysis using MySQL and Power BI to track customer retention, purchasing behavior, and revenue trends over time. Customers are grouped into cohorts based on their first purchase date, and metrics such as invoice counts, customer counts, and revenue are analyzed for each group. The analysis includes calculating the rate of change in invoices, customers, and revenue across time periods to assess growth or decline trends. Power BI visualizations help present these insights in an easy-to-understand manner. The project follows structured steps, including data loading into MySQL, aggregating invoice and customer counts by cohort, and analyzing revenue performance. By identifying long-term trends, businesses can improve customer engagement and optimize marketing strategies. The study also highlights revenue growth trends and customer lifetime value.</p>
+								<button class="more" type="button" aria-expanded="false" hidden>Read more</button>
+								<a class="project-link" href="https://github.com/nafiul-araf/Cohort-Analysis-using-SQL-and-Power-BI" target="_blank" rel="noopener">View on GitHub<svg class="icon" aria-hidden="true"><use href="#i-arrow" /></svg></a>
+							</div>
+						</article>
+
+						<!-- Snowflake & Google Cloud -->
+						<article class="card project" data-tags="cloud powerbi">
+							<a class="shot" href="images/fulls/snow-1.JPG">
+								<img class="is-centered" src="images/thumbs/snow-1.JPG" alt="Screenshot of the RFM Segmentation report built on Snowflake" loading="lazy" decoding="async" />
+								<span class="shot-hint"><svg class="icon" aria-hidden="true"><use href="#i-expand" /></svg>Enlarge</span>
+							</a>
+							<div class="project-body">
+								<ul class="tools"><li>Snowflake</li><li>Power BI</li></ul>
+								<h3 class="project-title">RFM Segmentation with Snowflake and Power BI Integration</h3>
+								<p class="desc">This project focuses on customer behavior analysis using Recency, Frequency, and Monetary (RFM) segmentation. Customers are classified into various groups, such as Loyal Customers, Potential Churners, New Customers, and Big Spenders. By leveraging Snowflake for data storage and Power BI for visualization, the project helps businesses identify high-value customers and retention strategies. Recency analysis determines how recently customers made purchases, frequency tracks purchasing patterns, and monetary value assesses total spending. The segmentation framework allows targeted marketing, improving customer engagement and retention rates. Key performance indicators (KPIs) such as total active customers, average purchase value, and customer lifetime value are analyzed. The insights drive personalized promotions, loyalty programs, and proactive churn prevention. Snowflake’s cloud-based analytics enhance scalability, while Power BI visualizations make data interpretation seamless. This structured approach helps businesses improve revenue by optimizing customer relationships and marketing efforts.</p>
+								<button class="more" type="button" aria-expanded="false" hidden>Read more</button>
+								<a class="project-link" href="https://github.com/nafiul-araf/Snowflake/tree/main/RFM%20Segmentation" target="_blank" rel="noopener">View on GitHub<svg class="icon" aria-hidden="true"><use href="#i-arrow" /></svg></a>
+							</div>
+						</article>
+
+						<article class="card project" data-tags="cloud pyml powerbi sql">
+							<a class="shot" href="images/fulls/bike.png">
+								<img src="images/thumbs/bike.png" alt="Image from the Bike Share Data Analysis project" loading="lazy" decoding="async" />
+								<span class="shot-hint"><svg class="icon" aria-hidden="true"><use href="#i-expand" /></svg>Enlarge</span>
+							</a>
+							<div class="project-body">
+								<ul class="tools"><li>Snowflake</li><li>Python</li><li>Power BI</li></ul>
+								<h3 class="project-title">Bike Share Data Analysis with Snowflake, Python and Power BI</h3>
+								<p class="desc">This project analyzes bike sales data across various markets, branches, and customer types to uncover revenue trends, profit margins, and growth patterns. Using Snowflake for data processing and Power BI for visualization, the project examines revenue generation by top markets and customer segments. Key insights include the highest revenue-contributing cities, top customers, and profit margins by sales channel (Brick &amp; Mortar vs. E-Commerce). Year-on-year and quarter-on-quarter analysis tracks business growth, highlighting peak performance periods and downturns. SQL-based queries support data extraction, including filtering transactions by market, currency, and time period. Power BI dashboards present insights on sales quantity, profitability, and revenue trends to support strategic decision-making. This analysis helps optimize pricing, sales channels, and customer engagement strategies.</p>
+								<button class="more" type="button" aria-expanded="false" hidden>Read more</button>
+								<a class="project-link" href="https://github.com/nafiul-araf/Snowflake/tree/main/Bike%20Share%20Analysis" target="_blank" rel="noopener">View on GitHub<svg class="icon" aria-hidden="true"><use href="#i-arrow" /></svg></a>
+							</div>
+						</article>
+
+						<article class="card project" data-tags="cloud powerbi pyml sql">
+							<a class="shot" href="images/fulls/gc-1.JPG">
+								<img src="images/thumbs/gc-1.JPG" alt="Image from the Bank Subscription Analysis project" loading="lazy" decoding="async" />
+								<span class="shot-hint"><svg class="icon" aria-hidden="true"><use href="#i-expand" /></svg>Enlarge</span>
+							</a>
+							<div class="project-body">
+								<ul class="tools"><li>BigQuery</li><li>Power BI</li><li>Machine learning</li></ul>
+								<h3 class="project-title">Bank Subscription Analysis</h3>
+								<p class="desc">This project examines customer subscription data from a bank’s marketing campaigns to identify key drivers influencing subscription behavior. Using BigQuery for data analysis and Power BI for visualization, the study explores the impact of demographics, financial status, and campaign effectiveness. Data preprocessing includes removing anomalies, categorizing customers, and analyzing campaign interactions. Machine learning models predict subscription likelihood and determine the most influential factors in customer decisions. Power BI dashboards display SQL-based insights, subscription trends, and predictive model results. Key findings suggest that younger customers and those with higher balances are more likely to subscribe. Short, targeted campaigns perform better than prolonged ones. This project helps financial institutions refine marketing strategies and improve customer acquisition.</p>
+								<button class="more" type="button" aria-expanded="false" hidden>Read more</button>
+								<a class="project-link" href="https://github.com/nafiul-araf/Google-Cloud/tree/main/Bank%20Subscription%20Analysis" target="_blank" rel="noopener">View on GitHub<svg class="icon" aria-hidden="true"><use href="#i-arrow" /></svg></a>
+							</div>
+						</article>
+
+						<article class="card project" data-tags="cloud powerbi pyml">
+							<a class="shot" href="images/fulls/gc-2.jpg">
+								<img src="images/thumbs/gc-2.jpg" alt="Image from the Sales Data Segmentation and Predictive Analysis project" loading="lazy" decoding="async" />
+								<span class="shot-hint"><svg class="icon" aria-hidden="true"><use href="#i-expand" /></svg>Enlarge</span>
+							</a>
+							<div class="project-body">
+								<ul class="tools"><li>BigQuery</li><li>Power BI</li><li>Clustering</li></ul>
+								<h3 class="project-title">Sales Data Segmentation and Predictive Analysis</h3>
+								<p class="desc">This project uses hierarchical clustering and predictive modeling to segment sales data and forecast revenue trends. The analysis identifies key business patterns by grouping customers and products based on profitability, sales channels, and shipping durations. Data preprocessing ensures clean, structured inputs for advanced analysis, while BigQuery stores processed data for scalability. Regression models predict revenue and profit with high accuracy, with feature importance analysis highlighting cost, order quantity, and shipping duration as major factors. Agglomerative clustering reveals high-profit segments, with wholesale channels performing best. Power BI dashboards integrate these insights for dynamic reporting. This project enables businesses to optimize pricing, supply chain strategies, and customer targeting efforts.</p>
+								<button class="more" type="button" aria-expanded="false" hidden>Read more</button>
+								<a class="project-link" href="https://github.com/nafiul-araf/Google-Cloud/tree/main/Sales%20Data%20Analysis" target="_blank" rel="noopener">View on GitHub<svg class="icon" aria-hidden="true"><use href="#i-arrow" /></svg></a>
+							</div>
+						</article>
+
+						<!-- Python and Machine Learning -->
+						<article class="card project" data-tags="pyml">
+							<a class="shot" href="images/fulls/python-1.png">
+								<img src="images/thumbs/python-1.png" alt="Image from the Medical Insurance EDA project" loading="lazy" decoding="async" />
+								<span class="shot-hint"><svg class="icon" aria-hidden="true"><use href="#i-expand" /></svg>Enlarge</span>
+							</a>
+							<div class="project-body">
+								<ul class="tools"><li>Python</li><li>Statistics</li></ul>
+								<h3 class="project-title">EDA and Hypothesis Test on Medical Insurance</h3>
+								<p class="desc">This project explores factors influencing medical insurance charges using EDA and hypothesis testing. Key demographic variables like age, BMI, smoker status, and region are analyzed for patterns in insurance costs. Visualizations such as count plots, regression plots, and pairwise relationships provide insights into data distribution. Proportion analysis highlights subgroup contributions to total charges. Hypothesis tests like Chi-square, T-tests, Z-tests, and ANOVA validate statistical significance. The one-sample and two-sample T-tests compare BMI and charges across demographics. Normality testing ensures data suitability for further analysis. The final findings assist insurers in risk assessment. Advanced statistical tests refine insights for pricing strategies. The project guides data-driven decision-making in the insurance industry.</p>
+								<button class="more" type="button" aria-expanded="false" hidden>Read more</button>
+								<a class="project-link" href="https://github.com/nafiul-araf/EDA-and-Hypothesis-Test-on-Medical-Insurance" target="_blank" rel="noopener">View on GitHub<svg class="icon" aria-hidden="true"><use href="#i-arrow" /></svg></a>
+							</div>
+						</article>
+
+						<article class="card project" data-tags="pyml">
+							<a class="shot" href="images/fulls/python-4.jpeg">
+								<img src="images/thumbs/python-4.jpeg" alt="Image from the Credit Risk Modeling project" loading="lazy" decoding="async" />
+								<span class="shot-hint"><svg class="icon" aria-hidden="true"><use href="#i-expand" /></svg>Enlarge</span>
+							</a>
+							<div class="project-body">
+								<ul class="tools"><li>Python</li><li>XGBoost</li><li>Streamlit</li></ul>
+								<h3 class="project-title">Credit Risk Modeling</h3>
+								<p class="desc">This project develops a machine learning model for predicting credit default risk. Using an imbalanced dataset, feature engineering and resampling techniques improve classification accuracy. Models like Logistic Regression, Random Forest, and XGBoost are evaluated, with XGBoost performing best. The model achieves a high AUC of 0.98, Gini of 0.97, and KS statistic of 86.87%. Interpretability is ensured through SHAP and LIME analysis. AUC-ROC curves and decile analysis confirm model reliability. Deployment strategies focus on retraining to mitigate risks from under-sampling. A Streamlit-based interactive interface enables real-time credit scoring. The project integrates machine learning with business needs for financial decision-making. Findings enhance risk assessment in lending institutions.</p>
+								<button class="more" type="button" aria-expanded="false" hidden>Read more</button>
+								<a class="project-link" href="https://github.com/nafiul-araf/Credit-Risk-Modeling-End-to-End-Project" target="_blank" rel="noopener">View on GitHub<svg class="icon" aria-hidden="true"><use href="#i-arrow" /></svg></a>
+							</div>
+						</article>
+
+						<article class="card project" data-tags="pyml">
+							<a class="shot" href="images/fulls/python-2.png">
+								<img src="images/thumbs/python-2.png" alt="Image from the Retail Customer Segmentation project" loading="lazy" decoding="async" />
+								<span class="shot-hint"><svg class="icon" aria-hidden="true"><use href="#i-expand" /></svg>Enlarge</span>
+							</a>
+							<div class="project-body">
+								<ul class="tools"><li>Python</li><li>Clustering</li></ul>
+								<h3 class="project-title">Retail Customer Segmentation</h3>
+								<p class="desc">This project segments retail customers using clustering techniques based on purchasing behavior. Features such as Quantity, UnitPrice, and Revenue help identify distinct customer groups. Cluster analysis supports targeted marketing and personalized promotions. Revenue and purchase quantity trends reveal seasonal variations. Classification models predict customer segments for new data entries. Insights aid banks and financial institutions in optimizing customer relationships. Clustering helps improve promotions and inventory management strategies. The framework is adaptable to various industries and datasets. A structured approach enhances customer engagement and business decision-making. The project provides a data-driven methodology for retail customer analysis.</p>
+								<button class="more" type="button" aria-expanded="false" hidden>Read more</button>
+								<a class="project-link" href="https://github.com/nafiul-araf/Data-Analysis-Projects-with-Python-and-SQL/tree/main/Python%20Projects/Clustering/Retail%20Customer%20Segmentation" target="_blank" rel="noopener">View on GitHub<svg class="icon" aria-hidden="true"><use href="#i-arrow" /></svg></a>
+							</div>
+						</article>
+
+						<article class="card project" data-tags="pyml">
+							<a class="shot" href="images/fulls/python-3.png">
+								<img class="is-centered" src="images/thumbs/python-3.png" alt="Image from the Airlines Customer Satisfaction Analysis project" loading="lazy" decoding="async" />
+								<span class="shot-hint"><svg class="icon" aria-hidden="true"><use href="#i-expand" /></svg>Enlarge</span>
+							</a>
+							<div class="project-body">
+								<ul class="tools"><li>Python</li><li>LightGBM</li><li>Streamlit</li></ul>
+								<h3 class="project-title">Airlines Customer Satisfaction Analysis</h3>
+								<p class="desc">This project predicts airline customer satisfaction using machine learning techniques. Key drivers include demographics, travel preferences, and service quality metrics. Data preprocessing and feature engineering optimize model performance. Logistic Regression, Random Forest, and LightGBM models are tested, with LightGBM achieving the highest accuracy (86.16%) and AUC (0.94). Findings indicate service quality is the most critical factor in satisfaction. A Streamlit Cloud-based deployment enables real-time customer sentiment predictions. The airline can proactively address dissatisfaction and enhance loyalty. Predictive analytics aids in strategic decision-making and service improvements. The model balances accuracy and interpretability for real-world applications. This project showcases machine learning's role in improving customer experience.</p>
+								<button class="more" type="button" aria-expanded="false" hidden>Read more</button>
+								<a class="project-link" href="https://github.com/nafiul-araf/Airlines-Customer-Satisfaction" target="_blank" rel="noopener">View on GitHub<svg class="icon" aria-hidden="true"><use href="#i-arrow" /></svg></a>
+							</div>
+						</article>
+
+						<!-- Excel -->
+						<article class="card project" data-tags="excel">
+							<a class="shot" href="images/fulls/excel-1.jpg">
+								<img src="images/thumbs/excel-1.jpg" alt="Screenshot of the Supply Chain Research and Analysis workbook" loading="lazy" decoding="async" />
+								<span class="shot-hint"><svg class="icon" aria-hidden="true"><use href="#i-expand" /></svg>Enlarge</span>
+							</a>
+							<div class="project-body">
+								<ul class="tools"><li>Excel</li></ul>
+								<h3 class="project-title">Supply Chain Research and Analysis</h3>
+								<p class="desc">This project analyzes key areas of supply chain performance, identifying inefficiencies and opportunities for improvement. It highlights transportation challenges, noting road transport’s long lead times and air transport’s speed advantage. Carrier performance analysis suggests renegotiating Carrier B's contract due to high costs and optimizing routes for efficiency. Skincare products emerged as the most profitable category, warranting further investment. Quality control bottlenecks, including a 38% defect rate, were identified as major issues impacting product availability. Seasonal revenue variability underscored the need for better demand forecasting. A predictive model explained only 20% of revenue variability, indicating the need for advanced analytics. Recommendations include improving quality control, optimizing logistics, and implementing dynamic pricing. The project emphasizes leveraging machine learning for better revenue prediction. Addressing these issues will enhance efficiency, boost customer satisfaction, and drive long-term profitability.</p>
+								<button class="more" type="button" aria-expanded="false" hidden>Read more</button>
+								<a class="project-link" href="https://github.com/nafiul-araf/Supply-Chain-Research-and-Analysis" target="_blank" rel="noopener">View on GitHub<svg class="icon" aria-hidden="true"><use href="#i-arrow" /></svg></a>
+							</div>
+						</article>
+
+						<article class="card project" data-tags="excel">
+							<a class="shot" href="images/fulls/excel-2.jpg">
+								<img src="images/thumbs/excel-2.jpg" alt="Screenshot of the Sales Data Analysis workbook" loading="lazy" decoding="async" />
+								<span class="shot-hint"><svg class="icon" aria-hidden="true"><use href="#i-expand" /></svg>Enlarge</span>
+							</a>
+							<div class="project-body">
+								<ul class="tools"><li>Excel</li></ul>
+								<h3 class="project-title">Sales Data Analysis</h3>
+								<p class="desc">This project explores sales performance across multiple dimensions, including product categories, outlet performance, and item demand. Total sales reached 18.59M, with 1,560 different items sold across 10 outlets. Low-fat items dominated sales (64%), suggesting a focus on expanding this category. Fruits &amp; Vegetables led sales, followed by Snack Foods and Household items. Medium-sized outlets performed best, accounting for 64% of total sales. OUT027 was the highest-grossing outlet, highlighting strategies to replicate its success elsewhere. Sales distribution analysis showed most sales clustered in the lower range, with a few outliers. Recommendations include focusing on top-selling categories, optimizing inventory based on demand, and targeted marketing strategies. Expansion should prioritize medium-sized outlets, given their high performance. These insights guide strategic decisions for improving sales, stock management, and outlet efficiency.</p>
+								<button class="more" type="button" aria-expanded="false" hidden>Read more</button>
+								<a class="project-link" href="https://drive.google.com/drive/folders/18wv5B9H7cnt68rE2cx9y7nH5TBt0czhd?usp=sharing" target="_blank" rel="noopener">Open files on Google Drive<svg class="icon" aria-hidden="true"><use href="#i-arrow" /></svg></a>
+							</div>
+						</article>
+					</div>
+
+					<p class="more-projects">
+						<a class="btn btn-secondary" href="https://github.com/nafiul-araf/Data-Analysis-Projects-with-Python-and-SQL" target="_blank" rel="noopener">
+							<svg class="icon" aria-hidden="true"><use href="#i-github" /></svg>More projects on GitHub
+						</a>
+					</p>
+				</div>
+			</section>
+
+			<!-- Certifications -->
+			<section class="section" id="certifications" aria-labelledby="certifications-title">
+				<div class="container">
+					<div class="section-head">
+						<h2 class="section-title" id="certifications-title">Certifications</h2>
+					</div>
+					<div class="certs">
+						<article class="card cert">
+							<a class="cert-shot" href="https://learn.microsoft.com/en-us/users/nafiularaf-8297/credentials/b1c52212cdf67daa" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+								<img src="images/certificate%201.JPG" alt="" loading="lazy" decoding="async" />
+							</a>
+							<div class="cert-body">
+								<p class="cert-meta">Microsoft · Nov 2025</p>
+								<h3 class="cert-title">Microsoft Certified: Power BI Data Analyst Associate (PL-300)</h3>
+								<a class="project-link" href="https://learn.microsoft.com/en-us/users/nafiularaf-8297/credentials/b1c52212cdf67daa" target="_blank" rel="noopener">Verify on Microsoft Learn<svg class="icon" aria-hidden="true"><use href="#i-arrow" /></svg></a>
+							</div>
+						</article>
+						<article class="card cert">
+							<a class="cert-shot" href="https://www.linkedin.com/in/nafiul-araf-50b0b7203/overlay/1738837620571/single-media-viewer/?profileId=ACoAADPOXRsB72fJYUtONoNSc3YNqK_wHWA2oY0" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+								<img src="images/certificate%203.JPG" alt="" loading="lazy" decoding="async" />
+							</a>
+							<div class="cert-body">
+								<p class="cert-meta">Data Solution 360 · Feb 2025</p>
+								<h3 class="cert-title">Data Analyst Job Ready Bootcamp</h3>
+								<a class="project-link" href="https://www.linkedin.com/in/nafiul-araf-50b0b7203/overlay/1738837620571/single-media-viewer/?profileId=ACoAADPOXRsB72fJYUtONoNSc3YNqK_wHWA2oY0" target="_blank" rel="noopener">View on LinkedIn<svg class="icon" aria-hidden="true"><use href="#i-arrow" /></svg></a>
+							</div>
+						</article>
+						<article class="card cert">
+							<a class="cert-shot" href="https://www.coursera.org/account/accomplishments/specialization/certificate/5H69BE8TEPJG" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+								<img src="images/certificate%202.JPG" alt="" loading="lazy" decoding="async" />
+							</a>
+							<div class="cert-body">
+								<p class="cert-meta">University of Michigan · Coursera · May 2021</p>
+								<h3 class="cert-title">Python for Everybody Specialization</h3>
+								<a class="project-link" href="https://www.coursera.org/account/accomplishments/specialization/certificate/5H69BE8TEPJG" target="_blank" rel="noopener">Verify on Coursera<svg class="icon" aria-hidden="true"><use href="#i-arrow" /></svg></a>
+							</div>
+						</article>
+					</div>
+				</div>
+			</section>
+
+			<!-- Contact -->
+			<section class="section" id="contact" aria-labelledby="contact-title">
+				<div class="container">
+					<div class="contact">
+						<div class="contact-intro">
+							<h2 class="section-title" id="contact-title">Get in touch</h2>
+							<p>Email is the quickest way to reach me. I’m also on LinkedIn and GitHub.</p>
+						</div>
+						<div class="contact-details">
+							<div class="email-row">
+								<a class="email" href="mailto:araf.cuet16@gmail.com">araf.cuet16@gmail.com</a>
+								<button class="btn btn-ghost btn-sm" type="button" data-copy="araf.cuet16@gmail.com">
+									<svg class="icon" aria-hidden="true"><use href="#i-copy" /></svg><span>Copy</span>
+								</button>
+							</div>
+							<ul class="contact-links">
+								<li><a href="https://www.linkedin.com/in/nafiul-araf-50b0b7203/" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-linkedin" /></svg>LinkedIn</a></li>
+								<li><a href="https://github.com/nafiul-araf" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-github" /></svg>GitHub</a></li>
+								<li><a href="resume/Md_Nafiul_Islam.pdf" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-file" /></svg>Résumé (PDF)</a></li>
+							</ul>
+							<address>
+								<svg class="icon" aria-hidden="true"><use href="#i-pin" /></svg>
+								<span>10, Purbachal Rd., Uttar Badda, Dhaka 1212, Bangladesh</span>
+							</address>
+							<p class="sr-only" id="copy-status" aria-live="polite"></p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</main>
+
+		<footer class="site-footer">
+			<div class="container footer-inner">
+				<p>&copy; <span data-year>2026</span> Md. Nafiul Islam</p>
+				<a href="#top"><svg class="icon" aria-hidden="true"><use href="#i-up" /></svg>Back to top</a>
+			</div>
+		</footer>
+
+		<!-- Screenshot viewer -->
+		<dialog class="lightbox" id="lightbox" aria-label="Project screenshot">
+			<figure>
+				<img alt="" />
+				<figcaption>
+					<span class="lb-caption"></span>
+					<span class="lb-counter"></span>
+				</figcaption>
+			</figure>
+			<button class="lb-btn lb-close" type="button" aria-label="Close"><svg class="icon" aria-hidden="true"><use href="#i-x" /></svg></button>
+			<button class="lb-btn lb-prev" type="button" aria-label="Previous screenshot"><svg class="icon" aria-hidden="true"><use href="#i-left" /></svg></button>
+			<button class="lb-btn lb-next" type="button" aria-label="Next screenshot"><svg class="icon" aria-hidden="true"><use href="#i-right" /></svg></button>
+		</dialog>
+
+		<script src="assets/js/site.js"></script>
 	</body>
 </html>
-
-
-
-
